@@ -68,6 +68,7 @@
 		3BEDA9831E4BD3C900DDC1A2 /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
 		3BEDA9871E4BDB6200DDC1A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3BEDA9891E4BDD3700DDC1A2 /* LaunchScreen_original.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchScreen_original.png; sourceTree = "<group>"; };
+		3BEF9B881E4D327E00A30339 /* RallyUp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RallyUp.entitlements; sourceTree = "<group>"; };
 		9D421C438FC81A03F6347886 /* Pods-RallyUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RallyUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RallyUp/Pods-RallyUp.debug.xcconfig"; sourceTree = "<group>"; };
 		E2AD7224A80AA725E7F23647 /* Pods-RallyUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RallyUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RallyUp/Pods-RallyUp.release.xcconfig"; sourceTree = "<group>"; };
 		FA85A67654F67FB237AFC112 /* libPods-RallyUp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RallyUp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +117,7 @@
 		3BEDA9361E4B9CC700DDC1A2 /* RallyUp */ = {
 			isa = PBXGroup;
 			children = (
+				3BEF9B881E4D327E00A30339 /* RallyUp.entitlements */,
 				3BEDA93A1E4B9CC700DDC1A2 /* AppDelegate.h */,
 				3BEDA93B1E4B9CC700DDC1A2 /* AppDelegate.m */,
 				3BEDA9571E4BA9AF00DDC1A2 /* Model */,
@@ -286,6 +288,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 2QZ3X4D8F5;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -509,6 +516,7 @@
 			baseConfigurationReference = 9D421C438FC81A03F6347886 /* Pods-RallyUp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RallyUp/RallyUp.entitlements;
 				DEVELOPMENT_TEAM = 2QZ3X4D8F5;
 				INFOPLIST_FILE = RallyUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -522,6 +530,7 @@
 			baseConfigurationReference = E2AD7224A80AA725E7F23647 /* Pods-RallyUp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RallyUp/RallyUp.entitlements;
 				DEVELOPMENT_TEAM = 2QZ3X4D8F5;
 				INFOPLIST_FILE = RallyUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
