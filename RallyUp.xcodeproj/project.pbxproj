@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BEDA9391E4B9CC700DDC1A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDA9381E4B9CC700DDC1A2 /* main.m */; };
+		3BEDA93C1E4B9CC700DDC1A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDA93B1E4B9CC700DDC1A2 /* AppDelegate.m */; };
+		3BEDA9421E4B9CC700DDC1A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BEDA9401E4B9CC700DDC1A2 /* Main.storyboard */; };
+		3BEDA9441E4B9CC700DDC1A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BEDA9431E4B9CC700DDC1A2 /* Assets.xcassets */; };
+		3BEDA9471E4B9CC700DDC1A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BEDA9451E4B9CC700DDC1A2 /* LaunchScreen.storyboard */; };
+		3BEDA9521E4BA94300DDC1A2 /* ViewGameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDA9511E4BA94300DDC1A2 /* ViewGameVC.m */; };
+		3BEDA9561E4BA9A300DDC1A2 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDA9551E4BA9A300DDC1A2 /* Event.m */; };
+		3BEDA95A1E4BA9D500DDC1A2 /* DataAccessObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDA9591E4BA9D500DDC1A2 /* DataAccessObject.m */; };
+		3BEDA95E1E4BB4E000DDC1A2 /* CreateGameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDA95D1E4BB4E000DDC1A2 /* CreateGameVC.m */; };
+		3BEDA9621E4BB92000DDC1A2 /* DetailViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDA9611E4BB92000DDC1A2 /* DetailViewVC.m */; };
+		3BEDA9661E4BBF2800DDC1A2 /* EditGameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDA9651E4BBF2800DDC1A2 /* EditGameVC.m */; };
+		3BEDA96A1E4BC70900DDC1A2 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDA9691E4BC70900DDC1A2 /* LoginVC.m */; };
+		3BEDA96E1E4BC8BC00DDC1A2 /* RallyUpIcon120X120.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BEDA96D1E4BC8BC00DDC1A2 /* RallyUpIcon120X120.png */; };
+		3BEDA9711E4BCAF500DDC1A2 /* CreateNewAccountVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDA9701E4BCAF500DDC1A2 /* CreateNewAccountVC.m */; };
+		3BEDA9741E4BD04500DDC1A2 /* map-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BEDA9731E4BD04500DDC1A2 /* map-marker.png */; };
+		3BEDA9761E4BD05500DDC1A2 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BEDA9751E4BD05500DDC1A2 /* home.png */; };
+		3BEDA9781E4BD05E00DDC1A2 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BEDA9771E4BD05E00DDC1A2 /* map.png */; };
+		3BEDA97E1E4BD13400DDC1A2 /* ViewMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDA97D1E4BD13400DDC1A2 /* ViewMapVC.m */; };
+		3BEDA9811E4BD1C000DDC1A2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BEDA9801E4BD1C000DDC1A2 /* MapKit.framework */; };
+		3BEDA9841E4BD3C900DDC1A2 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDA9831E4BD3C900DDC1A2 /* Annotation.m */; };
+		3BEDA9881E4BDB6200DDC1A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BEDA9871E4BDB6200DDC1A2 /* GoogleService-Info.plist */; };
+		3BEDA98A1E4BDD3700DDC1A2 /* LaunchScreen_original.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BEDA9891E4BDD3700DDC1A2 /* LaunchScreen_original.png */; };
+		E9E7E5BBF710D3B966F72205 /* libPods-RallyUp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA85A67654F67FB237AFC112 /* libPods-RallyUp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BEDA9341E4B9CC700DDC1A2 /* RallyUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RallyUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BEDA9381E4B9CC700DDC1A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BEDA93A1E4B9CC700DDC1A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BEDA93B1E4B9CC700DDC1A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BEDA9411E4B9CC700DDC1A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BEDA9431E4B9CC700DDC1A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BEDA9461E4B9CC700DDC1A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BEDA9481E4B9CC700DDC1A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BEDA9501E4BA94300DDC1A2 /* ViewGameVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewGameVC.h; sourceTree = "<group>"; };
+		3BEDA9511E4BA94300DDC1A2 /* ViewGameVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewGameVC.m; sourceTree = "<group>"; };
+		3BEDA9541E4BA9A300DDC1A2 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		3BEDA9551E4BA9A300DDC1A2 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		3BEDA9581E4BA9D500DDC1A2 /* DataAccessObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataAccessObject.h; sourceTree = "<group>"; };
+		3BEDA9591E4BA9D500DDC1A2 /* DataAccessObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataAccessObject.m; sourceTree = "<group>"; };
+		3BEDA95C1E4BB4E000DDC1A2 /* CreateGameVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateGameVC.h; sourceTree = "<group>"; };
+		3BEDA95D1E4BB4E000DDC1A2 /* CreateGameVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateGameVC.m; sourceTree = "<group>"; };
+		3BEDA9601E4BB92000DDC1A2 /* DetailViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewVC.h; sourceTree = "<group>"; };
+		3BEDA9611E4BB92000DDC1A2 /* DetailViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewVC.m; sourceTree = "<group>"; };
+		3BEDA9641E4BBF2800DDC1A2 /* EditGameVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditGameVC.h; sourceTree = "<group>"; };
+		3BEDA9651E4BBF2800DDC1A2 /* EditGameVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditGameVC.m; sourceTree = "<group>"; };
+		3BEDA9681E4BC70900DDC1A2 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		3BEDA9691E4BC70900DDC1A2 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		3BEDA96D1E4BC8BC00DDC1A2 /* RallyUpIcon120X120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RallyUpIcon120X120.png; sourceTree = "<group>"; };
+		3BEDA96F1E4BCAF500DDC1A2 /* CreateNewAccountVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateNewAccountVC.h; sourceTree = "<group>"; };
+		3BEDA9701E4BCAF500DDC1A2 /* CreateNewAccountVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateNewAccountVC.m; sourceTree = "<group>"; };
+		3BEDA9731E4BD04500DDC1A2 /* map-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-marker.png"; sourceTree = "<group>"; };
+		3BEDA9751E4BD05500DDC1A2 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		3BEDA9771E4BD05E00DDC1A2 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		3BEDA97C1E4BD13400DDC1A2 /* ViewMapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewMapVC.h; sourceTree = "<group>"; };
+		3BEDA97D1E4BD13400DDC1A2 /* ViewMapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewMapVC.m; sourceTree = "<group>"; };
+		3BEDA9801E4BD1C000DDC1A2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3BEDA9821E4BD3C900DDC1A2 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		3BEDA9831E4BD3C900DDC1A2 /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
+		3BEDA9871E4BDB6200DDC1A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3BEDA9891E4BDD3700DDC1A2 /* LaunchScreen_original.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchScreen_original.png; sourceTree = "<group>"; };
+		9D421C438FC81A03F6347886 /* Pods-RallyUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RallyUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RallyUp/Pods-RallyUp.debug.xcconfig"; sourceTree = "<group>"; };
+		E2AD7224A80AA725E7F23647 /* Pods-RallyUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RallyUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RallyUp/Pods-RallyUp.release.xcconfig"; sourceTree = "<group>"; };
+		FA85A67654F67FB237AFC112 /* libPods-RallyUp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RallyUp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BEDA9311E4B9CC700DDC1A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEDA9811E4BD1C000DDC1A2 /* MapKit.framework in Frameworks */,
+				E9E7E5BBF710D3B966F72205 /* libPods-RallyUp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		281EAF87E5331D84852F9659 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BEDA9801E4BD1C000DDC1A2 /* MapKit.framework */,
+				FA85A67654F67FB237AFC112 /* libPods-RallyUp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BEDA92B1E4B9CC700DDC1A2 = {
+			isa = PBXGroup;
+			children = (
+				3BEDA9361E4B9CC700DDC1A2 /* RallyUp */,
+				3BEDA9351E4B9CC700DDC1A2 /* Products */,
+				4F49DBADBBB3486C3A80A9A3 /* Pods */,
+				281EAF87E5331D84852F9659 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3BEDA9351E4B9CC700DDC1A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BEDA9341E4B9CC700DDC1A2 /* RallyUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BEDA9361E4B9CC700DDC1A2 /* RallyUp */ = {
+			isa = PBXGroup;
+			children = (
+				3BEDA93A1E4B9CC700DDC1A2 /* AppDelegate.h */,
+				3BEDA93B1E4B9CC700DDC1A2 /* AppDelegate.m */,
+				3BEDA9571E4BA9AF00DDC1A2 /* Model */,
+				3BEDA95B1E4BA9DC00DDC1A2 /* DAO */,
+				3BEDA9531E4BA95000DDC1A2 /* ViewGameVC */,
+				3BEDA9401E4B9CC700DDC1A2 /* Main.storyboard */,
+				3BEDA97F1E4BD14000DDC1A2 /* ViewMapVC */,
+				3BEDA9721E4BCB0000DDC1A2 /* CreateNewAccountVC */,
+				3BEDA96B1E4BC74E00DDC1A2 /* LoginVC */,
+				3BEDA9631E4BB92800DDC1A2 /* DetailViewVC */,
+				3BEDA9671E4BBF2F00DDC1A2 /* EditGameVC */,
+				3BEDA9431E4B9CC700DDC1A2 /* Assets.xcassets */,
+				3BEDA9451E4B9CC700DDC1A2 /* LaunchScreen.storyboard */,
+				3BEDA9481E4B9CC700DDC1A2 /* Info.plist */,
+				3BEDA9371E4B9CC700DDC1A2 /* Supporting Files */,
+			);
+			path = RallyUp;
+			sourceTree = "<group>";
+		};
+		3BEDA9371E4B9CC700DDC1A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BEDA9381E4B9CC700DDC1A2 /* main.m */,
+				3BEDA96C1E4BC87A00DDC1A2 /* Image */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BEDA9531E4BA95000DDC1A2 /* ViewGameVC */ = {
+			isa = PBXGroup;
+			children = (
+				3BEDA9501E4BA94300DDC1A2 /* ViewGameVC.h */,
+				3BEDA9511E4BA94300DDC1A2 /* ViewGameVC.m */,
+				3BEDA95F1E4BB4E900DDC1A2 /* CreateGameVC */,
+			);
+			name = ViewGameVC;
+			sourceTree = "<group>";
+		};
+		3BEDA9571E4BA9AF00DDC1A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BEDA9541E4BA9A300DDC1A2 /* Event.h */,
+				3BEDA9551E4BA9A300DDC1A2 /* Event.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3BEDA95B1E4BA9DC00DDC1A2 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				3BEDA9581E4BA9D500DDC1A2 /* DataAccessObject.h */,
+				3BEDA9591E4BA9D500DDC1A2 /* DataAccessObject.m */,
+			);
+			name = DAO;
+			sourceTree = "<group>";
+		};
+		3BEDA95F1E4BB4E900DDC1A2 /* CreateGameVC */ = {
+			isa = PBXGroup;
+			children = (
+				3BEDA95C1E4BB4E000DDC1A2 /* CreateGameVC.h */,
+				3BEDA95D1E4BB4E000DDC1A2 /* CreateGameVC.m */,
+			);
+			name = CreateGameVC;
+			sourceTree = "<group>";
+		};
+		3BEDA9631E4BB92800DDC1A2 /* DetailViewVC */ = {
+			isa = PBXGroup;
+			children = (
+				3BEDA9601E4BB92000DDC1A2 /* DetailViewVC.h */,
+				3BEDA9611E4BB92000DDC1A2 /* DetailViewVC.m */,
+			);
+			name = DetailViewVC;
+			sourceTree = "<group>";
+		};
+		3BEDA9671E4BBF2F00DDC1A2 /* EditGameVC */ = {
+			isa = PBXGroup;
+			children = (
+				3BEDA9641E4BBF2800DDC1A2 /* EditGameVC.h */,
+				3BEDA9651E4BBF2800DDC1A2 /* EditGameVC.m */,
+			);
+			name = EditGameVC;
+			sourceTree = "<group>";
+		};
+		3BEDA96B1E4BC74E00DDC1A2 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				3BEDA9681E4BC70900DDC1A2 /* LoginVC.h */,
+				3BEDA9691E4BC70900DDC1A2 /* LoginVC.m */,
+			);
+			name = LoginVC;
+			sourceTree = "<group>";
+		};
+		3BEDA96C1E4BC87A00DDC1A2 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				3BEDA9891E4BDD3700DDC1A2 /* LaunchScreen_original.png */,
+				3BEDA9731E4BD04500DDC1A2 /* map-marker.png */,
+				3BEDA9771E4BD05E00DDC1A2 /* map.png */,
+				3BEDA9751E4BD05500DDC1A2 /* home.png */,
+				3BEDA96D1E4BC8BC00DDC1A2 /* RallyUpIcon120X120.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		3BEDA9721E4BCB0000DDC1A2 /* CreateNewAccountVC */ = {
+			isa = PBXGroup;
+			children = (
+				3BEDA96F1E4BCAF500DDC1A2 /* CreateNewAccountVC.h */,
+				3BEDA9701E4BCAF500DDC1A2 /* CreateNewAccountVC.m */,
+			);
+			name = CreateNewAccountVC;
+			sourceTree = "<group>";
+		};
+		3BEDA97F1E4BD14000DDC1A2 /* ViewMapVC */ = {
+			isa = PBXGroup;
+			children = (
+				3BEDA97C1E4BD13400DDC1A2 /* ViewMapVC.h */,
+				3BEDA97D1E4BD13400DDC1A2 /* ViewMapVC.m */,
+				3BEDA9821E4BD3C900DDC1A2 /* Annotation.h */,
+				3BEDA9831E4BD3C900DDC1A2 /* Annotation.m */,
+				3BEDA9871E4BDB6200DDC1A2 /* GoogleService-Info.plist */,
+			);
+			name = ViewMapVC;
+			sourceTree = "<group>";
+		};
+		4F49DBADBBB3486C3A80A9A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D421C438FC81A03F6347886 /* Pods-RallyUp.debug.xcconfig */,
+				E2AD7224A80AA725E7F23647 /* Pods-RallyUp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BEDA9331E4B9CC700DDC1A2 /* RallyUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BEDA94B1E4B9CC700DDC1A2 /* Build configuration list for PBXNativeTarget "RallyUp" */;
+			buildPhases = (
+				9BE13CD0C2DDF26E4A741EDC /* [CP] Check Pods Manifest.lock */,
+				3BEDA9301E4B9CC700DDC1A2 /* Sources */,
+				3BEDA9311E4B9CC700DDC1A2 /* Frameworks */,
+				3BEDA9321E4B9CC700DDC1A2 /* Resources */,
+				128787E5EE5DD368B64A78C9 /* [CP] Embed Pods Frameworks */,
+				ADE89B04F3F7E0A839BF8FCD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RallyUp;
+			productName = RallyUp;
+			productReference = 3BEDA9341E4B9CC700DDC1A2 /* RallyUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BEDA92C1E4B9CC700DDC1A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = GKCo;
+				TargetAttributes = {
+					3BEDA9331E4B9CC700DDC1A2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2QZ3X4D8F5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3BEDA92F1E4B9CC700DDC1A2 /* Build configuration list for PBXProject "RallyUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BEDA92B1E4B9CC700DDC1A2;
+			productRefGroup = 3BEDA9351E4B9CC700DDC1A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BEDA9331E4B9CC700DDC1A2 /* RallyUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BEDA9321E4B9CC700DDC1A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEDA9781E4BD05E00DDC1A2 /* map.png in Resources */,
+				3BEDA9881E4BDB6200DDC1A2 /* GoogleService-Info.plist in Resources */,
+				3BEDA9471E4B9CC700DDC1A2 /* LaunchScreen.storyboard in Resources */,
+				3BEDA9761E4BD05500DDC1A2 /* home.png in Resources */,
+				3BEDA9741E4BD04500DDC1A2 /* map-marker.png in Resources */,
+				3BEDA98A1E4BDD3700DDC1A2 /* LaunchScreen_original.png in Resources */,
+				3BEDA96E1E4BC8BC00DDC1A2 /* RallyUpIcon120X120.png in Resources */,
+				3BEDA9441E4B9CC700DDC1A2 /* Assets.xcassets in Resources */,
+				3BEDA9421E4B9CC700DDC1A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		128787E5EE5DD368B64A78C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RallyUp/Pods-RallyUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BE13CD0C2DDF26E4A741EDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ADE89B04F3F7E0A839BF8FCD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RallyUp/Pods-RallyUp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BEDA9301E4B9CC700DDC1A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEDA9661E4BBF2800DDC1A2 /* EditGameVC.m in Sources */,
+				3BEDA9621E4BB92000DDC1A2 /* DetailViewVC.m in Sources */,
+				3BEDA96A1E4BC70900DDC1A2 /* LoginVC.m in Sources */,
+				3BEDA95A1E4BA9D500DDC1A2 /* DataAccessObject.m in Sources */,
+				3BEDA9561E4BA9A300DDC1A2 /* Event.m in Sources */,
+				3BEDA9521E4BA94300DDC1A2 /* ViewGameVC.m in Sources */,
+				3BEDA9841E4BD3C900DDC1A2 /* Annotation.m in Sources */,
+				3BEDA93C1E4B9CC700DDC1A2 /* AppDelegate.m in Sources */,
+				3BEDA9711E4BCAF500DDC1A2 /* CreateNewAccountVC.m in Sources */,
+				3BEDA97E1E4BD13400DDC1A2 /* ViewMapVC.m in Sources */,
+				3BEDA95E1E4BB4E000DDC1A2 /* CreateGameVC.m in Sources */,
+				3BEDA9391E4B9CC700DDC1A2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BEDA9401E4B9CC700DDC1A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BEDA9411E4B9CC700DDC1A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BEDA9451E4B9CC700DDC1A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BEDA9461E4B9CC700DDC1A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BEDA9491E4B9CC700DDC1A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BEDA94A1E4B9CC700DDC1A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BEDA94C1E4B9CC700DDC1A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D421C438FC81A03F6347886 /* Pods-RallyUp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2QZ3X4D8F5;
+				INFOPLIST_FILE = RallyUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GKCo.RallyUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BEDA94D1E4B9CC700DDC1A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2AD7224A80AA725E7F23647 /* Pods-RallyUp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2QZ3X4D8F5;
+				INFOPLIST_FILE = RallyUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GKCo.RallyUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BEDA92F1E4B9CC700DDC1A2 /* Build configuration list for PBXProject "RallyUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BEDA9491E4B9CC700DDC1A2 /* Debug */,
+				3BEDA94A1E4B9CC700DDC1A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BEDA94B1E4B9CC700DDC1A2 /* Build configuration list for PBXNativeTarget "RallyUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BEDA94C1E4B9CC700DDC1A2 /* Debug */,
+				3BEDA94D1E4B9CC700DDC1A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BEDA92C1E4B9CC700DDC1A2 /* Project object */;
+}
