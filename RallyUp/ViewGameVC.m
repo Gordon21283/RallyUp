@@ -97,11 +97,15 @@
     Event* currentEvent = [self.dao.gameArray objectAtIndex:indexPath.row];
     
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellID];
     }
     
     cell.textLabel.text = currentEvent.gameGroupName;
+    cell.detailTextLabel.text = currentEvent.pickSport;
+    cell.imageView.image = [UIImage imageNamed:@"Star_48X48"];
     
+
+
     return cell;
 }
 

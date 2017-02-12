@@ -29,6 +29,7 @@
 		3BEDA9841E4BD3C900DDC1A2 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDA9831E4BD3C900DDC1A2 /* Annotation.m */; };
 		3BEDA9881E4BDB6200DDC1A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BEDA9871E4BDB6200DDC1A2 /* GoogleService-Info.plist */; };
 		3BEDA98A1E4BDD3700DDC1A2 /* LaunchScreen_original.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BEDA9891E4BDD3700DDC1A2 /* LaunchScreen_original.png */; };
+		3BF693DA1E5010B500CDF313 /* Star_48X48.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BF693D91E5010B500CDF313 /* Star_48X48.png */; };
 		E9E7E5BBF710D3B966F72205 /* libPods-RallyUp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA85A67654F67FB237AFC112 /* libPods-RallyUp.a */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +70,7 @@
 		3BEDA9871E4BDB6200DDC1A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3BEDA9891E4BDD3700DDC1A2 /* LaunchScreen_original.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchScreen_original.png; sourceTree = "<group>"; };
 		3BEF9B881E4D327E00A30339 /* RallyUp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RallyUp.entitlements; sourceTree = "<group>"; };
+		3BF693D91E5010B500CDF313 /* Star_48X48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Star_48X48.png; sourceTree = "<group>"; };
 		9D421C438FC81A03F6347886 /* Pods-RallyUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RallyUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RallyUp/Pods-RallyUp.debug.xcconfig"; sourceTree = "<group>"; };
 		E2AD7224A80AA725E7F23647 /* Pods-RallyUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RallyUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RallyUp/Pods-RallyUp.release.xcconfig"; sourceTree = "<group>"; };
 		FA85A67654F67FB237AFC112 /* libPods-RallyUp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RallyUp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,6 +133,7 @@
 				3BEDA9671E4BBF2F00DDC1A2 /* EditGameVC */,
 				3BEDA9431E4B9CC700DDC1A2 /* Assets.xcassets */,
 				3BEDA9451E4B9CC700DDC1A2 /* LaunchScreen.storyboard */,
+				3BEDA9871E4BDB6200DDC1A2 /* GoogleService-Info.plist */,
 				3BEDA9481E4B9CC700DDC1A2 /* Info.plist */,
 				3BEDA9371E4B9CC700DDC1A2 /* Supporting Files */,
 			);
@@ -217,6 +220,7 @@
 				3BEDA9731E4BD04500DDC1A2 /* map-marker.png */,
 				3BEDA9771E4BD05E00DDC1A2 /* map.png */,
 				3BEDA9751E4BD05500DDC1A2 /* home.png */,
+				3BF693D91E5010B500CDF313 /* Star_48X48.png */,
 				3BEDA96D1E4BC8BC00DDC1A2 /* RallyUpIcon120X120.png */,
 			);
 			name = Image;
@@ -238,7 +242,6 @@
 				3BEDA97D1E4BD13400DDC1A2 /* ViewMapVC.m */,
 				3BEDA9821E4BD3C900DDC1A2 /* Annotation.h */,
 				3BEDA9831E4BD3C900DDC1A2 /* Annotation.m */,
-				3BEDA9871E4BDB6200DDC1A2 /* GoogleService-Info.plist */,
 			);
 			name = ViewMapVC;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 			files = (
 				3BEDA9781E4BD05E00DDC1A2 /* map.png in Resources */,
 				3BEDA9881E4BDB6200DDC1A2 /* GoogleService-Info.plist in Resources */,
+				3BF693DA1E5010B500CDF313 /* Star_48X48.png in Resources */,
 				3BEDA9471E4B9CC700DDC1A2 /* LaunchScreen.storyboard in Resources */,
 				3BEDA9761E4BD05500DDC1A2 /* home.png in Resources */,
 				3BEDA9741E4BD04500DDC1A2 /* map-marker.png in Resources */,
