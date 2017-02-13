@@ -12,11 +12,17 @@
 #import <CoreLocation/CoreLocation.h>
 @import Firebase;
 
+@protocol ReloadDelegate <NSObject>
+
+-(void)reloadUI;
+
+@end
 
 @interface DataAccessObject : NSObject
 
 @property BOOL isLoggingOut;
 @property (strong, nonatomic) FIRDatabaseReference *ref;
+@property (weak, nonatomic) id<ReloadDelegate> reloadDelegate;
 
 @property (nonatomic, strong) NSMutableArray *createEvent;
 

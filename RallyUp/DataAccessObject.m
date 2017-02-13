@@ -62,10 +62,10 @@ static DataAccessObject *sharedMyManager = nil;
     [[[[[_ref child:@"users"] child:[FIRAuth auth].currentUser.uid]child:@"games"] child:forEvent.uID]
      setValue:eventToSend];
     
-    dispatch_async(dispatch_get_main_queue(), ^{
-        [[NSNotificationCenter defaultCenter] postNotificationName:@"loadGames" object:nil];
-    });
-
+//    dispatch_async(dispatch_get_main_queue(), ^{
+//        [[NSNotificationCenter defaultCenter] postNotificationName:@"loadGames" object:nil];
+//    });
+    [self.reloadDelegate reloadUI];
     //first see if these breakpoints are getting hit (this one and the one in viewgames VC)
     
 }

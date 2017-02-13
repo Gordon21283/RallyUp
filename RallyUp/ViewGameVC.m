@@ -16,11 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     [self LogoutBtn];
     
     self.dao = [DataAccessObject sharedManager];
-    
+    self.dao.reloadDelegate = self;
     [self.gamesTV setSeparatorStyle:UITableViewCellSeparatorStyleSingleLine];
     [self.gamesTV setSeparatorColor:[UIColor lightGrayColor]];
     
@@ -38,6 +37,11 @@
     [self.dao getGamesFromDatabase];
     [self.gamesTV reloadData];
     
+}
+
+-(void)reloadUI{
+    [self.gamesTV reloadData];
+
 }
 
 

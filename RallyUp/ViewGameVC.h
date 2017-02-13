@@ -14,7 +14,7 @@
 
 @import FirebaseAuth;
 
-@interface ViewGameVC : UIViewController  <UITableViewDataSource, UITableViewDelegate, UITabBarDelegate>
+@interface ViewGameVC : UIViewController  <UITableViewDataSource, UITableViewDelegate, UITabBarDelegate, ReloadDelegate>
 
 @property (strong, nonatomic) IBOutlet UITableView *gamesTV;
 @property (strong, nonatomic) DataAccessObject *dao;

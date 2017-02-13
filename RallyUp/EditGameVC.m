@@ -193,6 +193,7 @@ numberOfRowsInComponent:(NSInteger)component{
 
 - (IBAction)doneEditBtn:(id)sender {
     
+    [self editEvent];
     [self populateEditEvent];
     
 }
