@@ -188,6 +188,7 @@ numberOfRowsInComponent:(NSInteger)component{
     Event *newEvent = [[Event alloc]initWithGameGroupName:self.txtCreateGroupName.text andGameStartTime:self.txtCreateStartTime.text andGameEndTime:self.txtCreateEndTime.text andPickSport:self.txtPickSport.text andStreet:self.txtCreateStreet.text andCity:self.txtCreateCity.text andState:self.txtCreateState.text andZipCode:self.txtCreateZipCode.text andGameLocationLongAndLat:self.eventLocation andUniqueID:uuid];
     
     [self.DAO.gameArray addObject:newEvent];
+    
     [self.DAO sendGameToDatabase:newEvent];
     
     

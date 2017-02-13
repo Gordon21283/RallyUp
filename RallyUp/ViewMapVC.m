@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.pinURLs = [[NSMutableDictionary alloc]init];
     [self TapGesture];
     
     self.locationManager = [[CLLocationManager alloc]init];
@@ -93,10 +93,23 @@
     
     Annotation *currentAnn = view.annotation;
     Event *tappedEvent = currentAnn.currentEvent;
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
-    DetailViewVC *detailVC = [storyboard instantiateViewControllerWithIdentifier:@"detail"];
-    detailVC.chosenEvent = tappedEvent;
-    [self.navigationController pushViewController:detailVC animated:YES];
+    
+    if (tappedEvent != nil) {
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+        DetailViewVC *detailVC = [storyboard instantiateViewControllerWithIdentifier:@"detail"];
+        detailVC.chosenEvent = tappedEvent;
+        
+        [self.navigationController pushViewController:detailVC animated:YES];
+    }
+    else {
+        
+        // add logic for pushig to WKWbview here
+            WebViewVC *webVC = [[WebViewVC alloc] initWithNibName:nil bundle:nil];
+            webVC.url = [self.pinURLs objectForKey:view.annotation.title];
+        
+            // Push the view controller.
+            [self.navigationController pushViewController:webVC animated:YES];
+    }
     
 }
 
@@ -131,9 +144,13 @@
                 ann.coordinate = coord;
                 ann.title = [mapItem name];
                 [self.annArray addObject:ann];
+                if(mapItem.url != nil){
+                    [self.pinURLs setObject:mapItem.url forKey:mapItem.name];
+                }
             }
             [self.mapView addAnnotations:self.annArray];
-        } else {
+        }
+        else {
             NSLog(@"Search Request Error: %@", [error localizedDescription]);
         }
         
@@ -141,7 +158,6 @@
         
     }];
 }
-
 
 - (IBAction)setMap:(id)sender {
     

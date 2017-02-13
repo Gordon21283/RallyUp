@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B67BA381E5229290037987E /* WebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B67BA371E5229290037987E /* WebViewVC.m */; };
 		3BEDA9391E4B9CC700DDC1A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDA9381E4B9CC700DDC1A2 /* main.m */; };
 		3BEDA93C1E4B9CC700DDC1A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDA93B1E4B9CC700DDC1A2 /* AppDelegate.m */; };
 		3BEDA9421E4B9CC700DDC1A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BEDA9401E4B9CC700DDC1A2 /* Main.storyboard */; };
@@ -34,6 +35,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B67BA361E5229290037987E /* WebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewVC.h; sourceTree = "<group>"; };
+		3B67BA371E5229290037987E /* WebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewVC.m; sourceTree = "<group>"; };
 		3BEDA9341E4B9CC700DDC1A2 /* RallyUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RallyUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BEDA9381E4B9CC700DDC1A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3BEDA93A1E4B9CC700DDC1A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -96,6 +99,24 @@
 				FA85A67654F67FB237AFC112 /* libPods-RallyUp.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B67BA391E522D590037987E /* WebViewVC */ = {
+			isa = PBXGroup;
+			children = (
+				3B67BA361E5229290037987E /* WebViewVC.h */,
+				3B67BA371E5229290037987E /* WebViewVC.m */,
+			);
+			name = WebViewVC;
+			sourceTree = "<group>";
+		};
+		3B67BA3A1E522D810037987E /* Annotation */ = {
+			isa = PBXGroup;
+			children = (
+				3BEDA9821E4BD3C900DDC1A2 /* Annotation.h */,
+				3BEDA9831E4BD3C900DDC1A2 /* Annotation.m */,
+			);
+			name = Annotation;
 			sourceTree = "<group>";
 		};
 		3BEDA92B1E4B9CC700DDC1A2 = {
@@ -240,8 +261,8 @@
 			children = (
 				3BEDA97C1E4BD13400DDC1A2 /* ViewMapVC.h */,
 				3BEDA97D1E4BD13400DDC1A2 /* ViewMapVC.m */,
-				3BEDA9821E4BD3C900DDC1A2 /* Annotation.h */,
-				3BEDA9831E4BD3C900DDC1A2 /* Annotation.m */,
+				3B67BA3A1E522D810037987E /* Annotation */,
+				3B67BA391E522D590037987E /* WebViewVC */,
 			);
 			name = ViewMapVC;
 			sourceTree = "<group>";
@@ -394,6 +415,7 @@
 				3BEDA9621E4BB92000DDC1A2 /* DetailViewVC.m in Sources */,
 				3BEDA96A1E4BC70900DDC1A2 /* LoginVC.m in Sources */,
 				3BEDA95A1E4BA9D500DDC1A2 /* DataAccessObject.m in Sources */,
+				3B67BA381E5229290037987E /* WebViewVC.m in Sources */,
 				3BEDA9561E4BA9A300DDC1A2 /* Event.m in Sources */,
 				3BEDA9521E4BA94300DDC1A2 /* ViewGameVC.m in Sources */,
 				3BEDA9841E4BD3C900DDC1A2 /* Annotation.m in Sources */,

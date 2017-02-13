@@ -65,7 +65,8 @@ static DataAccessObject *sharedMyManager = nil;
     dispatch_async(dispatch_get_main_queue(), ^{
         [[NSNotificationCenter defaultCenter] postNotificationName:@"loadGames" object:nil];
     });
-    
+
+    //first see if these breakpoints are getting hit (this one and the one in viewgames VC)
     
 }
 
