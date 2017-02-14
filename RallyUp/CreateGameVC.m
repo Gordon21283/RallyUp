@@ -118,7 +118,7 @@
 -(void)pickSport {
     
     pickerArray = [[NSArray alloc]initWithObjects:@"None",@"Badminton",
-                   @"Basketball",@"Football",@"Hockey",@"Softball",@"Tennis", nil];
+                   @"Basketball",@"Football",@"Hockey",@"Softball",@"Soccer",@"Tennis", nil];
     
     myPickerView = [[UIPickerView alloc]init];
     myPickerView.dataSource = self;

@@ -134,7 +134,7 @@
 
 -(void)editPickSport {
     
-    editPickerArray = [[NSArray alloc]initWithObjects:@"None",@"Badminton", @"Basketball",@"Football",@"Hockey",@"Softball",@"Tennis", nil];
+    editPickerArray = [[NSArray alloc]initWithObjects:@"None",@"Badminton", @"Basketball",@"Football",@"Hockey",@"Softball",@"Soccer", @"Tennis", nil];
     
     editPickerView = [[UIPickerView alloc]init];
     editPickerView.dataSource = self;
